@@ -228,6 +228,7 @@ header {
 .homeBanner {
     background: linear-gradient(#31504d, #1e3331);
     padding-bottom: 50px;
+    padding-top: 58px;
 }
 
 .homeBannerText {
