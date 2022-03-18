@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+
+    <link rel="stylesheet" href="./css/css.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+</head>
+
+<body onscroll="whiteDiv()">
+
+    <div class="header-fixed ">
+        <div class="container-f position-relative">
+            <header id="myHeader">
+                <div class="menu">
+                    <ul class="menu-ul">
+                        <li class="menulink Homelink"><a href="">home <i class="fa-solid fa-angle-down menulink-i"></i></a>
+                            <ul class="home-dropdown">
+                                <li class="home-drop-links mb-1">
+                                    <a href="#">Home Page 1</a>
+                                </li>
+                                <li class="home-drop-links">
+                                    <a href="#">Home Page 2</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menulink"><a href="">shop <i class="fa-solid fa-angle-down menulink-i"></i> </a></li>
+                        <li class="menulink"><a href="">about us</a></li>
+                        <li class="menulink"><a href="">contact</a></li>
+                    </ul>
+                    <div class="logo">
+                        <img src="./images/logo.png" alt="logo">
+                    </div>
+                </div>
+
+                <div class="menu-icons position-relative" id="shopping-icon">
+                    <i id="menu-icon" class="fa-solid SearchIcon fa-magnifying-glass M-icon"></i>
+                    <i id="menu-icon" class="fa-solid fa-cart-shopping M-icon"></i>
+                    <span>3</span>
+                </div>
+
+            </header>
+        </div>
+        <div class="header-search" id="Headersearch">
+            <input id="header-search" type="search">
+            <div id="searchClose">
+                <span class="searchClose1 searchclose"></span>
+                <span class="searchClose2 searchclose"></span>
+            </div>
+        </div>
+    </div>
+    <section class="homeBanner ">
+        <div class="d-flex justify-content-between position-relative ">
+            <div class="homeBannerText">
+                <p>QUALITY IS EVERYONE'S RESPONSIBILTY</p>
+                <h1>A Home Is Not A Home Without Furniture
+                    <div id="darkUnderline-First"><img src="./images/underline_dark.svg" class="w-100" alt=""></div>
+                </h1>
+                <button id="shopButton"> 
+                    <i class="shopBag"> 
+                        <span id="shopBag-in"></span> 
+                    </i> 
+                    <p class="ms-2">SHOP NOW</p>
+                </button>
+            </div>
+            <div class="homeBannerImg">
+                <img src="./images/hero.png" class="w-100" alt="">
+            </div>
+        </div>
+    </section>
+
+    <div class="bg-choose">
+        <div class="whyChoose">
+            <div class="whyChooseHeading pb-4">
+                <h1 id="choose-line">Why Choose Us?
+                    <div class="underline-first">
+                        <img src="./images/underline.svg" class="w-100" alt="">
+                        <div class="white-div" id="whiteDivLine"></div>
+                    </div>
+                </h1>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+                <div class="col  text-center ">
+                    <div class="card border-none  h-100">
+                        <i class="fa-solid fa-earth-americas choose-icon-size pb-2"></i>
+                        <div class="card-body">
+                            <h4 class="card-title chooseCard-h pb-3">Woldwide Brand</h4>
+                            <p class="card-text chooseCard-p">Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col  text-center ">
+                    <div class="card border-none  h-100">
+                        <i class="fa-solid fa-trophy choose-icon-size pb-2"></i>
+                        <div class="card-body">
+                            <h4 class="card-title chooseCard-h pb-3">Award Winner</h4>
+                            <p class="card-text chooseCard-p">Looks beautiful & ultra-sharp on Retina Screen Displays. Retina Icons, Fonts & all others graphics are optimized.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col  text-center ">
+                    <div class="card border-none  h-100">
+                        <i class="fa-solid fa-face-smile choose-icon-size pb-2"></i>
+                        <div class="card-body">
+                            <h4 class="card-title chooseCard-h pb-3">Happily Service</h4>
+                            <p class="card-text chooseCard-p">Canvas includes tons of optimized code that are completely customizable and deliver unmatched fast performance.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="choose-icons-company mt-4">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="company-icons"> <img src="./images/amazon.svg" alt=""></div>
+                <div class="company-icons"> <img src="./images/cnn.svg" alt=""></div>
+                <div class="company-icons"> <img src="./images/google.svg" alt=""></div>
+                <div class="company-icons"> <img src="./images/linkedin.svg" alt=""></div>
+
+            </div>
+            <div class="d-flex justify-content-between align-items-center w-80P m-auto mt-3 mb-5">
+                <div class="company-icons"> <img src="./images/netflix.svg" alt=""></div>
+                <div class="company-icons"> <img src="./images/jetblue.svg" alt=""></div>
+                <div class="company-icons"> <img src="./images/github.svg" alt=""></div>
+            </div>
+            <div></div>
+        </div>
+    </div>
+
+    <div>
+        <div class="shop-category text-center ">
+            <h1>Shop by Category</h1>
+            <button class="viewButton"> <i class="fa-solid fa-table-cells-large me-2"></i> VIEW ALL</button>
+            <div class="shop-category-container d-flex justify-content-between mt-5">
+
+                <div class="category-card">
+                    <a href="#">
+                        <div class="w-100 position-relative">
+                            <img src="./images/sofas.jpg" class="w-100" alt="">
+                            <div class="cardName">
+                                <h6>SOFA</h6>
+                            </div>
+
+                        </div>
+                    </a>
+                    <div class="upperHoverdiv"></div>
+                </div>
+                <div class="category-card">
+                    <a href="#">
+                        <div class="w-100 position-relative">
+                            <img src="./images/tables.jpg" class="w-100" alt="">
+                            <div class="cardName">
+                                <h6>TABLE</h6>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="upperHoverdiv"></div>
+                </div>
+                <div class="category-card">
+                    <a href="#">
+                        <div class="w-100 position-relative">
+                            <img src="./images/chairs.jpg" class="w-100" alt="">
+                            <div class="cardName">
+                                <h6>CHAIRS</h6>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="upperHoverdiv"></div>
+                </div>
+            </div>
+            <div class="shop-category-container d-flex justify-content-between mt-4 mb-3">
+
+                <div class="category-card">
+                    <a href="#">
+                        <div class="w-100 position-relative">
+                            <img src="./images/lights.jpg" class="w-100" alt="">
+                            <div class="cardName">
+                                <h6>LIGHTS</h6>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="upperHoverdiv"></div>
+                </div>
+                <div class="category-card">
+                    <a href="#">
+                        <div class="w-100 position-relative">
+                            <img src="./images/wardrobes.jpg" class="w-100" alt="">
+                            <div class="cardName">
+                                <h6>WARDROBES</h6>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="upperHoverdiv"></div>
+                </div>
+                <div class="category-card">
+                    <a href="#">
+                        <div class="w-100 position-relative">
+                            <img src="./images/beds.jpg" class="w-100" alt="">
+                            <div class="cardName">
+                                <h6>BED</h6>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="upperHoverdiv"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="newArrivals-Bg">
+            <div class="container-lg">
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col arrivals-bg">
+                        <div class="card border-none arrivals-bg">
+
+                            <div class="card-body  arrivals-bg">
+                                <h1 class="card-title c-green pb-2">New Arrivals</h1>
+                                <p class="card-text c-green card-textArrivals">Compellingly cultivate synergistic infrastructures rather than fully tested opportunities. Synergistically evisculate web-enabled interfaces.</p>
+                            </div>
+                            <div class="card-footer-button  arrivals-bg d-flex justify-content-between">
+                                <button class="button-arrivals ">New Arrivals</button><button class=" button-arrivals">Popular</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card newArrivals-card position-relative border-none">
+                            <img src="./images/2 (2).jpg" class="card-img-top" alt="...">
+                            <img src="./images/2-1.jpg" class="card-img-top card-image-2" alt="...">
+                            <div class="arrivalsHide-icons bg-unset">
+                                <i class="fa-solid arrivalsHide-ICON fa-cart-shopping"></i>
+                                <i class="fa-solid arrivalsHide-ICON fa-up-right-from-square"></i>
+                            </div>
+                        </div>
+                        <div class="card-footer-text mt-4">
+                            <h6>Light Grey Sofa</h6>
+                            <span>$799.99</span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card newArrivals-card position-relative border-none">
+                            <img src="./images/3 (1).jpg" class="card-img-top" alt="...">
+                            <img src="./images/3-1.jpg" class="card-img-top card-image-2" alt="...">
+                            <div class="arrivalsHide-icons bg-unset">
+                                <i class="fa-solid arrivalsHide-ICON fa-cart-shopping"></i>
+                                <i class="fa-solid arrivalsHide-ICON fa-up-right-from-square"></i>
+                            </div>
+                        </div>
+                        <div class="card-footer-text mt-4">
+                            <h6>Celling Lights</h6>
+                            <span>$39.49 </span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card newArrivals-card position-relative border-none">
+                            <img src="./images/4-1.jpg" class="card-img-top" alt="...">
+                            <img src="./images/4 (1).jpg" class="card-img-top card-image-2" alt="...">
+                            <div class="arrivalsHide-icons bg-unset">
+                                <i class="fa-solid arrivalsHide-ICON fa-cart-shopping"></i>
+                                <i class="fa-solid arrivalsHide-ICON fa-up-right-from-square"></i>
+                            </div>
+                        </div>
+                        <div class="card-footer-text mt-4">
+                            <h6>High Stand Chair</h6>
+                            <span>$24.99</span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card newArrivals-card position-relative border-none">
+                            <img src="./images/5 (1).jpg" class="card-img-top" alt="...">
+                            <img src="./images/5-1.jpg" class="card-img-top card-image-2" alt="...">
+                            <div class="arrivalsHide-icons bg-unset">
+                                <i class="fa-solid arrivalsHide-ICON fa-cart-shopping"></i>
+                                <i class="fa-solid arrivalsHide-ICON fa-up-right-from-square"></i>
+                            </div>
+                        </div>
+                        <div class="card-footer-text mt-4">
+                            <h6>Dining Sofa with Tea-table</h6>
+                            <span>$99.99</span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card newArrivals-card position-relative border-none">
+                            <img src="./images/6 (1).jpg" class="card-img-top" alt="...">
+
+                        </div>
+                        <div class="card-footer-text mt-4">
+                            <h6>Bathroom Cloths Shelves</h6>
+                            <span>$23</span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card newArrivals-card position-relative border-none">
+                            <img src="./images/7 (1).jpg" class="card-img-top" alt="...">
+
+                        </div>
+                        <div class="card-footer-text mt-4">
+                            <h6>Golden Lamp for Room</h6>
+                            <span>$24.99</span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card newArrivals-card position-relative border-none">
+                            <img src="./images/8 (1).jpg" class="card-img-top" alt="...">
+                            <img src="./images/8-1.jpg" class="card-img-top card-image-2" alt="...">
+                            <div class="arrivalsHide-icons bg-unset">
+                                <i class="fa-solid arrivalsHide-ICON fa-cart-shopping"></i>
+                                <i class="fa-solid arrivalsHide-ICON fa-up-right-from-square"></i>
+                            </div>
+                        </div>
+                        <div class="card-footer-text mt-4">
+                            <h6>White Cuddle Chair with Cusions</h6>
+                            <span>$29.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb-3 explor">
+        <div class="d-flex justify-content-between ">
+            <div class="Explor-img">
+                <img src="./images/section.jpg" class="w-100 " alt="">
+            </div>
+            <div class="Explor-text ">
+                <h1>Explore your Home & Office with our Furnitures</h1>
+                <p class="mt-4">Compellingly cultivate synergistic infrastructures rather than fully tested opportunities. Synergistically evisculate web-enabled interfaces for market positioning web services. Continually create business infomediaries and interdependent
+                    products.
+                </p>
+                <button class="mt-4">DISCOVER NOW <i class="fa-solid fa-arrow-right-long" id="explor-arrow"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="facilty-bg">
+        <div class="d-flex container justify-content-between align-items-center">
+            <div class="col facilty-iconDiv">
+                <div class="card border-none h-100 text-center">
+                    <i class="fa-solid fa-circle-check facilty-icons facilty-one mb-2"></i>
+                    <div class="card-body  text-center">
+                        <h4 class="card-title mb-3">Original & Excellent Quality</h4>
+                        <p class="card-text">Completely formulate top-line resources rather than cross-media portals cross-platform solutions.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col facilty-iconDiv">
+                <div class="card border-none h-100 text-center">
+                    <i class="fa-solid fa-truck-fast facilty-icons facilty-two mb-2"></i>
+                    <div class="card-body  text-center">
+                        <h4 class="card-title mb-3">Free & Fast Shipping</h4>
+                        <p class="card-text">Rapidiously optimize user-centric catalysts for change vis-a-vis granular "outside the box" thinking.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col facilty-iconDiv">
+                <div class="card border-none h-100 text-center ">
+                    <i class="fa-solid fa-shield-blank facilty-icons facilty-one mb-2 "></i>
+                    <div class="card-body  text-center">
+                        <h4 class="card-title mb-3">Secure Payment</h4>
+                        <p class="card-text">Continually recaptiualize 2.0 action items after global information. Efficiently strategize holistic networks.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="followDiv">
+            <div class="d-flex justify-content-between align-items-sm-center">
+                <div class="followImgDiv">
+                    <div class="d-flex  justify-content-between align-items-sm-center">
+                        <div class="followimg-W">
+                            <img src="./images/1 (1).jpg" alt="">
+                        </div>
+                        <div class="followimg-W">
+                            <img src="./images/2 (1).jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="d-flex  justify-content-between align-items-sm-center">
+                        <div class="followimg-W">
+                            <img src="./images/3.jpg" alt="">
+                        </div>
+                        <div class="followimg-W">
+                            <img src="./images/4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="followTextDiv text-center">
+                    <i class="fa-brands fa-instagram followicon mb-3"></i>
+                    <h2>Don't Follow the Crowd, Follow us on <span class="position-relative">Instagram <div class="explor-underline"><img src="./images/underline_dark.svg" class="w-100" alt=""></div></span></h2>
+                    <button class="semiweb-button">@semicolonweb</button>
+                </div>
+                <div class="followImgDiv">
+                    <div class="d-flex  justify-content-between align-items-sm-center">
+                        <div class="followimg-W">
+                            <img src="./images/5.jpg" alt="">
+                        </div>
+                        <div class="followimg-W">
+                            <img src="./images/6.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="d-flex  justify-content-between align-items-sm-center">
+                        <div class="followimg-W">
+                            <img src="./images/7.jpg" alt="">
+                        </div>
+                        <div class="followimg-W">
+                            <img src="./images/8.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-padding">
+        <footer class="d-flex justify-content-between container">
+            <div class="footer-menu">
+                <h6 class="mb-4">Social</h6>
+                <ul>
+                    <li class="footer-items">
+                        <a href="#" class="footer-links">
+                            <div class="footer-iconDiv"><i class="fa-brands fa-facebook-f footer-icon me-2"></i></div>
+                            <p>FACEBOOK</p>
+                        </a>
+                    </li>
+                    <li class="footer-items">
+                        <a href="#" class="footer-links">
+                            <div class="footer-iconDiv"><i class="fa-brands fa-instagram me-2 footer-icon"></i></div>
+                            <p>INSTAGRAM</p>
+
+                        </a>
+                    </li>
+                    <li class="footer-items">
+                        <a href="#" class="footer-links">
+                            <div class="footer-iconDiv"><i class="fa-brands fa-twitter me-2 footer-icon"></i> </div>
+                            <p>TWITTER</p>
+
+                        </a>
+                    </li>
+                    <li class="footer-items">
+                        <a href="#" class="footer-links">
+                            <div class="footer-iconDiv"><i class="fa-brands fa-youtube me-2 footer-icon"></i></div>
+                            <p>YOUTUBE</p>
+                        </a>
+                    </li>
+                    <li class="footer-items">
+                        <a href="#" class="footer-links">
+                            <div class="footer-iconDiv"><i class="fa-brands fa-whatsapp me-2 footer-icon"></i></div>
+                            <p>WHATSAPP</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-menu">
+                <h6 class="mb-4">Support</h6>
+                <ul>
+                    <li class="footer-items">
+                        <a href="#" class="footer-links">
+                            <p>HOME</p>
+                        </a>
+                    </li>
+                    <li class="footer-items">
+                        <a href="#" class="footer-links">
+                            <p>ABOUT</p>
+                        </a>
+                    </li>
+                    <li class="footer-items">
+                        <a href="#" class="footer-links">
+                            <p>CONTACT</p>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="footer-menu">
+                <h6 class="mb-4">Trending</h6>
+                <ul>
+                    <li class="footer-items">
+                        <a href="#" class="footer-links">
+                            <p>SHOP</p>
+                        </a>
+                    </li>
+                    <li class="footer-items">
+                        <a href="#" class="footer-links">
+                            <p>SINGLE</p>
+                        </a>
+                    </li>
+                    <li class="footer-items">
+                        <a href="#" class="footer-links">
+                            <p>WHO ARE WE</p>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="footer-menu">
+                <h6 class="mb-4">Get to Know us</h6>
+                <ul>
+                    <li class="footer-items">
+                        <a href="#" class="footer-links">
+                            <p>NICHE DEMOS</p>
+                        </a>
+                    </li>
+                    <li class="footer-items">
+                        <a href="#" class="footer-links">
+                            <p>HOME PAGES</p>
+                        </a>
+                    </li>
+                    <li class="footer-items">
+                        <a href="#" class="footer-links">
+                            <p>ONE PAGES </p>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="footer-form">
+                <h6 class="mb-4">SUBSCRIBE US</h6>
+                <p>Subscribe to Our Newsletter to get Important News, Amazing Offers & Inside Scoops:</p>
+                <form action="#" class="position-relative d-flex align-items-center">
+                    <input type="email" placeholder="Enter your Email Address">
+                    <button class="form-button">Subscribe</button>
+                </form>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./js/new.js"></script>
+</body>
+
+</html>
