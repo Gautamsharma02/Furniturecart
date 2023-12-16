@@ -88,6 +88,10 @@ header {
     cursor: pointer;
 }
 
+.logo h2 {
+    font-family: 'Zilla Slab', serif !important;
+}
+
 .logo img {
     width: 100%;
 }
